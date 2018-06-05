@@ -25,8 +25,11 @@ namespace Snake
                 point.Draw();
             }
 
-            HorizontalLine hl1 = new HorizontalLine(5,3,5,'*');
+            HorizontalLine hl1 = new HorizontalLine(5,9,5,'*');
             hl1.Draw();
+
+            VerticalLine vl1 = new VerticalLine(8, 2, 10, '+');
+            vl1.Draw();
 
             Console.Read();
 
